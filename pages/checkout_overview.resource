@@ -1,7 +1,7 @@
 *** Settings ***
 Library      AppiumLibrary
 Variables    ../locators/checkout_overview.py
-Resource     ../pages/common.resource
+Resource     ../common/common.resource
 
 *** Keywords ***
 Finish Checkout
