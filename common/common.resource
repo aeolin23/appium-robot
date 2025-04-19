@@ -10,7 +10,7 @@ ${ANDROID_UDID}               emulator-5554
 ${REMOTE_URL}                 http://127.0.0.1:4723
 
 *** Keywords ***
-Open Swaglabs
+Open Apps
     Open Application    ${REMOTE_URL}
     ...    automationName=${ANDROID_AUTOMATION_NAME}
     ...    platformName=${ANDROID_PLATFORM_NAME}
