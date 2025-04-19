@@ -9,7 +9,7 @@ Sort Price High to Low
     Wait Until Page Contains Element    ${price_high_to_low}    timeout=10
     Click Element    ${price_high_to_low}
 
-Add Products To Cart
+Add To Cart
     Wait Until Page Contains Element    ${sauce_labs_fleece}    timeout=10
     Click Element    ${sauce_labs_fleece}
 

@@ -1,28 +1,18 @@
 *** Settings ***
-Resource    ../common/common.resource
+Resource    ../pages/common.resource
 Resource    ../pages/login.resource
 Resource    ../pages/products.resource
 Resource    ../pages/cart.resource
 Resource    ../pages/checkout.resource
 Resource    ../pages/checkout_overview.resource
-Suite Setup       Open Apps
-Suite Teardown    Close Apps
+Test Setup       Open Swaglabs
+Test Teardown    Close Apps
 
 *** Tasks ***
-Login
-    [Tags]    login
+Running E2E Test
     Login to Apps
-
-Sort Price
-    [Tags]    sort
     Sort Price High to Low
-
-Add To Cart
-    [Tags]    add_to_cart
-    Add Products To Cart
-
-Checkout
-    [Tags]    checkout
+    Add To Cart
     Go to Cart Page
     Go to Checkout Information Page
     Go to Checkout Overview Page
